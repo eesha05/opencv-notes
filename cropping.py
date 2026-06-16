@@ -3,6 +3,7 @@ image=cv2.imread("parrot image.jpg")
 """
 cropped_image = image[startY: endY, startX: endX]
 to cut part of the image because images are just 2d or 3d array
+(0,0) is the top left corner of the image
 y axis is rows ie pixels from top to bottom
 x axis is columns that is pixels from left to right
 end not included
