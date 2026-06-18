@@ -16,3 +16,6 @@ blurred = cv2.GaussianBlur(image, (7,7), 3)
 cv2.imshow("blurred image",blurred)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+#blending is replacing the pixel with the avg of all its neighbors so that the sharp values get removed
+
